@@ -21,6 +21,12 @@ sebastian.springer@maibornwolff.de
 
 - https://docs.npmjs.com/misc/scripts
 
+- https://pugjs.org Template engine
+
+- https://handlebarsjs.com/ #2 template engine
+
+- http://www.embeddedjs.com/
+
 ## Projekt setup
 
 1. npm init => erstellt die package.json (npm init --yes => jaja passt schon modus)

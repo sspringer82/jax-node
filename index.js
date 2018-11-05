@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+app.set('view engine', 'ejs');
+
 app.use(express.static('public'));
 
 app.use((req, res, next) => {
@@ -23,7 +25,9 @@ app.get('/list', (req, res) => {
     },
   ];
 
-  res.json(todos);
+  res.render('list', { todos });
+
+  //res.json(todos);
 });
 
 app.get('/hello', (req, res) => {
