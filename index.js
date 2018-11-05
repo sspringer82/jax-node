@@ -4,6 +4,11 @@ const app = express();
 
 app.use(express.static('public'));
 
+app.use((req, res, next) => {
+  console.log('incoming request');
+  next();
+});
+
 app.get('/list', (req, res) => {
   const todos = [
     {
