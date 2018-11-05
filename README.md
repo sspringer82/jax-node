@@ -25,6 +25,14 @@ sebastian.springer@maibornwolff.de
 
 1. npm init => erstellt die package.json (npm init --yes => jaja passt schon modus)
 
+1. main => Einstiegspunkt (STandard: index.js)
+
+1. private: true => verhindert versehentliches publizieren
+
+1. .gitignore => Ignorieren des node_modules verzeichnisses
+
+1. Abhängigkeiten Installieren Dev: npm install --save-dev <dep> Prod: npm install <dep>
+
 ## Wie gut ist denn mein Paket?
 
 - NPM Downloads
