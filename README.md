@@ -59,3 +59,15 @@ sebastian.springer@maibornwolff.de
 
 VSCODE: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
 Webstorm: https://www.jetbrains.com/help/webstorm/running-and-debugging-node-js.html
+
+## Template engine in express
+
+1. npm install ejs
+
+1. app.set('view engine', 'ejs');
+
+1. views-Verzeichnis erzeugen
+
+1. list.ejs-Datei im Views-Verzeichnis erzeugen
+
+1. res.render('list') in der Routing-Funktion
