@@ -27,6 +27,8 @@ sebastian.springer@maibornwolff.de
 
 - http://www.embeddedjs.com/
 
+- http://www.passportjs.org Authentifizierung in Express
+
 ## Projekt setup
 
 1. npm init => erstellt die package.json (npm init --yes => jaja passt schon modus)

@@ -3,7 +3,9 @@ const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const expressJwt = require('express-jwt');
 const todo = require('./todo');
+const auth = require('./auth');
 
 const app = express();
 
@@ -27,6 +29,7 @@ app.use((req, res, next) => {
 });
 
 // routing
-app.use('/todo', todo);
+app.use('/todo', expressJwt({ secret: 'secret' }), todo);
+app.use('/login', auth);
 
 app.listen(8080, () => console.log('Server is listening'));
