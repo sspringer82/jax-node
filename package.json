@@ -1,0 +1,25 @@
+{
+  "name": "jax-node",
+  "version": "1.0.0",
+  "description": "Sebastian Springer",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspringer82/jax-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspringer82/jax-node/issues"
+  },
+  "homepage": "https://github.com/sspringer82/jax-node#readme"
+}

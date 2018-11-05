@@ -43,8 +43,8 @@ sebastian.springer@maibornwolff.de
 
 ## Tools
 
-- NVM https://github.com/creationix/nvm
-- NLF https://github.com/iandotkelly/nlf
+- NVM - node version manager https://github.com/creationix/nvm
+- NLF - node license finder https://github.com/iandotkelly/nlf
 
 ## Debugger
 
