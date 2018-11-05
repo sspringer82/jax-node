@@ -11,24 +11,30 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/list', (req, res) => {
-  const todos = [
-    {
-      id: 1,
-      title: 'get up',
-      status: 'done',
-    },
-    {
-      id: 2,
-      title: 'listen',
-      status: 'open',
-    },
-  ];
+// routing
+app.get(
+  '/list',
+  // controller
+  (req, res) => {
+    // model
+    const todos = [
+      {
+        id: 1,
+        title: 'get up',
+        status: 'done',
+      },
+      {
+        id: 2,
+        title: 'listen',
+        status: 'open',
+      },
+    ];
 
-  res.render('list', { todos });
+    res.render('list', { todos });
 
-  //res.json(todos);
-});
+    //res.json(todos);
+  },
+);
 
 app.get('/hello', (req, res) => {
   res.send('Hello World');
