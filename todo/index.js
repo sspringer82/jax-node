@@ -1,13 +1,15 @@
 const express = require('express');
 
-const { listAction } = require('./todo.controller');
+const { listAction, detailAction } = require('./todo.controller');
 
 const router = express.Router();
 
 router.get('/', listAction);
-router.get('/:id', (req, res) => {
-  console.log(req.params.id);
-  res.send('Hello Client');
+router.get('/:id', detailAction);
+router.post('/', (req, res) => {
+  console.log(req.body);
+
+  res.send('yeah!');
 });
 
 module.exports = router;
