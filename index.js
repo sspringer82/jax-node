@@ -2,6 +2,8 @@ const http = require('http');
 
 http
   .createServer((req, res) => {
+    // manueller Breakpoint
+    // debugger;
     res.end('Hello World😻!');
     // Prozess terminieren
     // process.exit(0);
