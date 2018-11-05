@@ -45,3 +45,11 @@ sebastian.springer@maibornwolff.de
 
 - NVM https://github.com/creationix/nvm
 - NLF https://github.com/iandotkelly/nlf
+
+## Debugger
+
+1. Starten: node --inspect-brk index.js (break on first line) oder --inspect (ohne bofl)
+2. Chrome: chrome://inspect => remote Target auswählen
+
+VSCODE: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+Webstorm: https://www.jetbrains.com/help/webstorm/running-and-debugging-node-js.html
